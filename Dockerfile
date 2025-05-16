@@ -50,6 +50,3 @@ RUN rm -rf /app/* /app/.??*
 # Note: This Docker image doesn't contain the lume executable (macOS-specific)
 # Instead, it relies on connecting to a lume server running on the host machine
 # via host.docker.internal:7777
-
-# Default command
-CMD ["bash"] 
